@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lemiki · A desktop pet that reacts to your coding</title>
+    <meta
+      name="description"
+      content="Lemiki is a little cat that lives on your desktop while you code. It celebrates passing builds, gets sad when tests fail and naps when you're away."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+    <meta property="og:title" content="Lemiki" />
+    <meta property="og:description" content="A little cat that lives on your desktop and reacts to your coding." />
+    <meta property="og:image" content="https://jatin-jain-123.github.io/lemiki/screenshots/celebrating.png" />
+    <meta property="og:url" content="https://jatin-jain-123.github.io/lemiki/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="./"><img src="assets/icon.svg" alt="" width="28" height="28" />Lemiki</a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#screenshots">Screenshots</a>
+        <a href="#get">Get it</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Title + tagline -->
+      <section class="hero">
+        <img class="hero-logo" src="assets/icon.svg" alt="Lemiki logo" width="112" height="112" />
+        <h1>Lemiki</h1>
+        <p class="tagline">A little cat that lives on your desktop and reacts to your coding.</p>
+        <div class="cta">
+          <a class="button primary" href="https://apps.microsoft.com/detail/9N3KJWB1CTH1">Get it from Microsoft Store</a>
+          <a class="button" href="https://marketplace.visualstudio.com/items?itemName=Jatin-Jain.lemiki"
+            >Get the VS Code extension</a
+          >
+        </div>
+        <p class="note">Free · Windows 10/11 · No data collected</p>
+      </section>
+
+      <!-- Description -->
+      <section class="description">
+        <h2>What is Lemiki?</h2>
+        <p>
+          Coding for hours can feel a bit lonely. Lemiki puts a small cat on your screen that lives its own life: it
+          walks, sits, naps, stretches and sometimes gets the zoomies.
+        </p>
+        <p>
+          Add the free VS Code extension and the cat starts noticing your work. When your build passes it jumps and
+          throws confetti. When tests fail it droops with a little tear. You see how things went at a glance, without
+          reading a terminal.
+        </p>
+        <p>
+          It never gets in your way. Your clicks pass straight through it, it never steals keyboard focus, and it never
+          shows pop-ups.
+        </p>
+      </section>
+
+      <section id="features" class="features">
+        <h2>How the cat reacts</h2>
+        <div class="grid">
+          <div class="card"><span class="emoji">🎉</span><h3>Build passes</h3><p>Jumps, spins and throws confetti.</p></div>
+          <div class="card"><span class="emoji">😺</span><h3>Tests pass</h3><p>Hops happily.</p></div>
+          <div class="card"><span class="emoji">😿</span><h3>Build or tests fail</h3><p>Droops, with a little tear.</p></div>
+          <div class="card"><span class="emoji">👀</span><h3>You start typing</h3><p>Glances over, curious.</p></div>
+          <div class="card"><span class="emoji">💾</span><h3>You save a file</h3><p>Looks up for a moment.</p></div>
+          <div class="card"><span class="emoji">💤</span><h3>You go quiet</h3><p>Curls up for a nap.</p></div>
+        </div>
+        <ul class="facts">
+          <li><strong>Click-through:</strong> never blocks your mouse or keyboard.</li>
+          <li><strong>Small, medium or large:</strong> pick a size from the tray icon next to the clock.</li>
+          <li>
+            <strong>Works with your tools:</strong> npm, pnpm, yarn, tsc, vite, jest, vitest, pytest, go, cargo, maven,
+            gradle, dotnet, make and more.
+          </li>
+          <li><strong>Private:</strong> nothing leaves your computer.</li>
+        </ul>
+      </section>
+
+      <!-- Screenshots -->
+      <section id="screenshots" class="screenshots">
+        <h2>Screenshots</h2>
+        <figure>
+          <img src="screenshots/celebrating.png" alt="The cat celebrating with confetti over VS Code" loading="lazy" />
+          <figcaption>Build passed: the cat celebrates with confetti.</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/sitting.png" alt="The cat sitting on top of a VS Code window" loading="lazy" />
+          <figcaption>Sitting quietly while you work.</figcaption>
+        </figure>
+        <figure>
+          <img src="screenshots/walking.png" alt="The cat walking across the editor" loading="lazy" />
+          <figcaption>Wandering around the screen on its own.</figcaption>
+        </figure>
+      </section>
+
+      <!-- Platforms -->
+      <section id="get" class="platforms">
+        <h2>Available on</h2>
+        <div class="grid two">
+          <a class="platform" href="https://apps.microsoft.com/detail/9N3KJWB1CTH1">
+            <h3>Microsoft Store</h3>
+            <p>The desktop app. This is the part that shows your pet.</p>
+            <span class="link">Get it on Windows →</span>
+          </a>
+          <a class="platform" href="https://marketplace.visualstudio.com/items?itemName=Jatin-Jain.lemiki">
+            <h3>VS Code Marketplace</h3>
+            <p>Optional extension. Makes the pet react to builds, tests, saves and typing.</p>
+            <span class="link">Install the extension →</span>
+          </a>
+        </div>
+        <h3 class="steps-title">Getting started</h3>
+        <ol class="steps">
+          <li>Install Lemiki from the Microsoft Store and open it. A cat appears on your screen.</li>
+          <li>In VS Code, open Extensions (Ctrl+Shift+X), search <em>Lemiki</em> and install it.</li>
+          <li>Run a build or your tests and watch the cat react. A <strong>♥ Lemiki</strong> item in the status bar shows it's connected.</li>
+        </ol>
+      </section>
+
+      <section class="faq">
+        <h2>Questions</h2>
+        <details>
+          <summary>Where is the cat's menu?</summary>
+          <p>
+            Click the orange cat-face icon next to the clock. Windows may hide it under the <strong>^</strong> arrow;
+            drag it onto the taskbar to keep it visible. From there you can hide the pet, change its size or quit.
+          </p>
+        </details>
+        <details>
+          <summary>My terminal builds aren't noticed.</summary>
+          <p>
+            Use PowerShell, bash, zsh or fish in VS Code (not the old cmd.exe), or run the build as a VS Code task
+            (Ctrl+Shift+B).
+          </p>
+        </details>
+        <details>
+          <summary>Does Lemiki collect any data?</summary>
+          <p>No. Everything stays on your computer. See the <a href="privacy.html">privacy policy</a>.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made by Jatin Jain · Support: <a href="mailto:jatin321jain@gmail.com">jatin321jain@gmail.com</a> · <a href="privacy.html">Privacy</a></p>
+    </footer>
+  </body>
+</html>

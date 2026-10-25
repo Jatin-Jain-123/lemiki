@@ -1,0 +1,12 @@
+<!-- Lemiki logo mark: a minimal cat face. Drawn from scratch for this project (no third-party artwork). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <mask id="face">
+    <path fill="#fff" stroke="#fff" stroke-width="28" stroke-linejoin="round" d="M256 432c-100 0-160-50-160-128 0-46 14-82 34-108l-10-108 92 54c14-4 28-6 44-6s30 2 44 6l92-54-10 108c20 26 34 62 34 108 0 78-60 128-160 128z"/>
+    <g fill="#000">
+      <ellipse cx="196" cy="296" rx="22" ry="30"/>
+      <ellipse cx="316" cy="296" rx="22" ry="30"/>
+      <path d="M240 350h32l-16 18z" stroke="#000" stroke-width="8" stroke-linejoin="round"/>
+    </g>
+  </mask>
+  <rect width="512" height="512" fill="#F59A4A" mask="url(#face)"/>
+</svg>
