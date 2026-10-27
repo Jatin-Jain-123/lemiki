@@ -1,4 +1,4 @@
-# Lemiki 🐈
+# Lemiki™ 🐈
 
 **A little cat that lives on your desktop and reacts to your coding.**
 
@@ -32,3 +32,6 @@ To update the site: edit the files and push to `main`. GitHub Pages republishes 
 
 ## Support
 Email jatin321jain@gmail.com
+
+## Legal
+© 2026 Jatin Jain. All rights reserved. Lemiki™ is a trademark of Jatin Jain. The app is not open source.
