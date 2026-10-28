@@ -6,11 +6,11 @@
     <title>Lemiki™ · A desktop pet that reacts to your coding</title>
     <meta
       name="description"
-      content="Lemiki is a little cat that lives on your desktop while you code. It celebrates passing builds, gets sad when tests fail and naps when you're away."
+      content="Lemiki is a little pet (cat, dog, rabbit, hamster or pigeon) that lives on your desktop while you code. It celebrates passing builds, gets sad when tests fail and naps when you're away."
     />
     <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
     <meta property="og:title" content="Lemiki™" />
-    <meta property="og:description" content="A little cat that lives on your desktop and reacts to your coding." />
+    <meta property="og:description" content="A little pet that lives on your desktop and reacts to your coding." />
     <meta property="og:image" content="https://jatin-jain-123.github.io/lemiki/screenshots/celebrating.png" />
     <meta property="og:url" content="https://jatin-jain-123.github.io/lemiki/" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -32,7 +32,7 @@
       <section class="hero">
         <img class="hero-logo" src="assets/icon.svg" alt="Lemiki logo" width="112" height="112" />
         <h1>Lemiki<sup class="tm" title="Lemiki is a trademark of Jatin Jain">™</sup></h1>
-        <p class="tagline">A little cat that lives on your desktop and reacts to your coding.</p>
+        <p class="tagline">A little pet that lives on your desktop and reacts to your coding.</p>
         <div class="cta">
           <a class="button primary" href="https://apps.microsoft.com/detail/9N3KJWB1CTH1">Get it from Microsoft Store</a>
           <a class="button" href="https://marketplace.visualstudio.com/items?itemName=Jatin-Jain.lemiki"
@@ -46,11 +46,12 @@
       <section class="description">
         <h2>What is Lemiki?</h2>
         <p>
-          Coding for hours can feel a bit lonely. Lemiki puts a small cat on your screen that lives its own life: it
-          walks, sits, naps, stretches and sometimes gets the zoomies.
+          Coding for hours can feel a bit lonely. Lemiki puts a small pet on your screen that lives its own life: it
+          walks, sits, naps, stretches and sometimes gets the zoomies. Pick a <strong>cat, dog, rabbit, hamster or
+          pigeon</strong>, and switch any time.
         </p>
         <p>
-          Add the free VS Code extension and the cat starts noticing your work. When your build passes it jumps and
+          Add the free VS Code extension and your pet starts noticing your work. When your build passes it jumps and
           throws confetti. When tests fail it droops with a little tear. You see how things went at a glance, without
           reading a terminal.
         </p>
@@ -60,8 +61,16 @@
         </p>
       </section>
 
+      <section id="pets" class="screenshots">
+        <h2>Meet the pets</h2>
+        <figure>
+          <img src="screenshots/pets.png" alt="The five Lemiki pets: cat, dog, rabbit, hamster and pigeon" loading="lazy" />
+          <figcaption>Cat, dog, rabbit, hamster and pigeon, each in its natural colours.</figcaption>
+        </figure>
+      </section>
+
       <section id="features" class="features">
-        <h2>How the cat reacts</h2>
+        <h2>How your pet reacts</h2>
         <div class="grid">
           <div class="card"><span class="emoji">🎉</span><h3>Build passes</h3><p>Jumps, spins and throws confetti.</p></div>
           <div class="card"><span class="emoji">😺</span><h3>Tests pass</h3><p>Hops happily.</p></div>
@@ -73,6 +82,7 @@
         <ul class="facts">
           <li><strong>Click-through:</strong> never blocks your mouse or keyboard.</li>
           <li><strong>Small, medium or large:</strong> pick a size from the tray icon next to the clock.</li>
+          <li><strong>Starts with Windows, if you like:</strong> Lemiki shows whether it's on and takes you to the right Windows Settings page to change it.</li>
           <li>
             <strong>Works with your tools:</strong> npm, pnpm, yarn, tsc, vite, jest, vitest, pytest, go, cargo, maven,
             gradle, dotnet, make and more.
@@ -84,6 +94,10 @@
       <!-- Screenshots -->
       <section id="screenshots" class="screenshots">
         <h2>Screenshots</h2>
+        <figure class="narrow">
+          <img src="screenshots/home.png" alt="The Lemiki home screen: five pets with the dog ticked, START and STOP buttons, and the start-with-Windows status" loading="lazy" />
+          <figcaption>The home screen: pick a pet, press START. STOP puts it away.</figcaption>
+        </figure>
         <figure>
           <img src="screenshots/celebrating.png" alt="The cat celebrating with confetti over VS Code" loading="lazy" />
           <figcaption>Build passed: the cat celebrates with confetti.</figcaption>
@@ -117,19 +131,31 @@
         </div>
         <h3 class="steps-title">Getting started</h3>
         <ol class="steps">
-          <li>Install Lemiki from the Microsoft Store and open it. A cat appears on your screen.</li>
+          <li>Install Lemiki from the Microsoft Store and open it. Pick a pet, choose whether it starts with Windows, then press <strong>START</strong>.</li>
           <li>In VS Code, open Extensions (Ctrl+Shift+X), search <em>Lemiki</em> and install it.</li>
-          <li>Run a build or your tests and watch the cat react. A <strong>♥ Lemiki</strong> item in the status bar shows it's connected.</li>
+          <li>Run a build or your tests and watch your pet react. A <strong>♥ Lemiki</strong> item in the status bar shows it's connected.</li>
         </ol>
       </section>
 
       <section class="faq">
         <h2>Questions</h2>
         <details>
-          <summary>Where is the cat's menu?</summary>
+          <summary>Where is the pet's menu?</summary>
           <p>
             Click the orange cat-face icon next to the clock. Windows may hide it under the <strong>^</strong> arrow;
-            drag it onto the taskbar to keep it visible. From there you can hide the pet, change its size or quit.
+            drag it onto the taskbar to keep it visible. From there you can open the home screen, hide the pet, change
+            its size or quit.
+          </p>
+        </details>
+        <details>
+          <summary>How do I switch to a different pet?</summary>
+          <p>Open Lemiki (or click <strong>Open Lemiki</strong> in the tray menu), tick another pet and press <strong>START</strong>.</p>
+        </details>
+        <details>
+          <summary>How do I make Lemiki start with Windows?</summary>
+          <p>
+            On the home screen, under START, use <strong>Click here</strong>. It opens <em>Settings › Apps › Startup</em>; switch
+            Lemiki on (or off). When Lemiki starts this way, your pet simply appears, with no windows.
           </p>
         </details>
         <details>

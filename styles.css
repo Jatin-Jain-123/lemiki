@@ -197,6 +197,13 @@ main > section {
   border: 1px solid var(--line);
 }
 
+/* Portrait screenshots (the app window) stay a sensible size */
+.screenshots figure.narrow img {
+  display: block;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
 .screenshots figcaption {
   color: var(--muted);
   font-size: 0.95rem;

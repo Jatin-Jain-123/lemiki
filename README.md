@@ -1,6 +1,6 @@
 # Lemiki™ 🐈
 
-**A little cat that lives on your desktop and reacts to your coding.**
+**A little pet (cat, dog, rabbit, hamster or pigeon) that lives on your desktop and reacts to your coding.**
 
 🌐 Website: https://jatin-jain-123.github.io/lemiki/
 
@@ -12,7 +12,9 @@
 ![Lemiki celebrating a passing build](screenshots/celebrating.png)
 
 ## What it does
+- Five pets to pick from: cat, dog, rabbit, hamster, pigeon.
 - Wanders your screen on its own: walks, sits, naps, stretches.
+- Optional start with Windows.
 - With the VS Code extension: celebrates passing builds, gets sad on failed tests, glances over when you type.
 - Click-through: never blocks your mouse or keyboard.
 - Private: collects nothing. See the [privacy policy](https://jatin-jain-123.github.io/lemiki/privacy.html).
